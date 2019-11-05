@@ -1,0 +1,186 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+h2
+{
+    text-align: center;
+    padding-bottom: 50px;
+    color: #555;
+}
+h4
+{
+    color:#ff4d4d;
+    font-weight: 500;
+    text-align: center;
+}
+
+.navbar-brand
+{
+    color: #fff;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #007bff !important;
+}
+.navbar 
+{
+    background: #fff;
+    padding:3px 130px 3px 120px;
+}
+.nav-link
+{
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 15px;
+}
+#navbarNav 
+{
+    width: 100px;
+    padding: 0px 50px;
+}
+/* ---------------------------Header---------------------- */
+#header
+{
+    background-image: url(../img/banner3.jpg);
+    height: 92vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#header
+{
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+#header h1
+{
+    color: #FA8072;
+    font-weight: 600;
+    font-size: 90px;
+    padding: 10px ;
+}
+.col-md-6 p
+{
+    color: #fff;
+    font-size: 16px;
+    
+}
+.btn
+{
+    color: #fff;
+    border: solid 1px #FA8072;
+    border-radius: 5px;
+}
+/* -----------------Section 2----------------- */
+.page2
+{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.page2 p
+{
+    font-size: 20px;
+    text-align: center;
+    border: 3px solid #ff4d4d;
+}
+span
+{
+    color: #FA8072;
+}
+/* ---------------------------Features--------------------- */
+#features
+{
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.col-md-4
+{
+    padding: 10px;
+    margin-top: 5px;
+}
+#features p
+{
+    font-size: 13px;
+    color: #555;
+
+}
+#features .fas
+{
+    padding-left: 150px;
+    font-size: 37px;
+    padding-bottom:8px;
+}
+/* -------------------------------Services------------------ */
+#services
+{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    /* padding: 80px 105px 100px 105px; */
+
+}
+
+#services h1::after
+{
+    content:'';
+    background: #FA8072;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+#services p
+{
+    font-size: 13px;
+    margin-top: 20px;
+    text-align: center;
+}
+#services img
+{
+    width: 250px;
+    height: auto;
+}
+/* ------------------------About------------------- */
+#about
+{
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+#about 
+{
+    background-image: url('../img/c.jpg');
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#about h3
+{
+    color: #ff4d4d;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.intro
+{
+    background: #fff;
+    width: 450px;
+    margin: auto;
+    border-radius: 0px 20px 0px 20px;
+    padding: 5px;  
+}
+.intro p
+{
+    margin: 10px;
+    text-align: justify;
+}
