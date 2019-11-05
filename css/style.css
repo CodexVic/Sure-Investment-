@@ -14,6 +14,7 @@ h4
     color:#ff4d4d;
     font-weight: 500;
     text-align: center;
+    padding-top: 10px;
 }
 
 .navbar-brand
@@ -52,11 +53,6 @@ h4
     background-image: url(../img/banner3.jpg);
     height: 92vh;
     background-size: cover;
-    background-position: center;
-}
-
-#header
-{
     padding-top: 70px;
     padding-bottom: 70px;
 
@@ -99,8 +95,8 @@ span
 /* ---------------------------Features--------------------- */
 #features
 {
-    padding-top: 80px;
-    padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 80px;
 }
 .col-md-4
 {
@@ -122,8 +118,8 @@ span
 /* -------------------------------Services------------------ */
 #services
 {
-    padding-top: 80px;
-    padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 80px;
     /* padding: 80px 105px 100px 105px; */
 
 }
@@ -153,13 +149,11 @@ span
 {
     padding-top: 80px;
     padding-bottom: 100px;
-}
-#about 
-{
-    background-image: url('../img/c.jpg');
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('../img/c.jpg');
     height: 80vh;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 #about h3
@@ -183,4 +177,65 @@ span
 {
     margin: 10px;
     text-align: justify;
+}
+/* -------------------------MEET THE TEAM--------------- */
+#team
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/abcd.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+}
+#team p
+{
+    text-align: center;
+}
+.team1 img
+{
+    padding-top: 20px;
+    border-radius: 50%;
+    filter: grayscale(1);
+}
+.team1 h5 
+{
+    padding-left: 26px;
+    padding-top: 10px;
+}
+.team1 p {
+    text-align: center;
+    font-style: italic;
+    padding-right: 75px;
+}
+.team1 img:hover
+{
+   filter: grayscale(0);
+   cursor: pointer;
+}
+.kemi img
+{
+    padding-top: 40px;
+}
+.kemi h5
+{
+    padding-left: 40px;
+}
+/* ------------------------SPONSORS----------------- */
+.sponsors
+{
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.sponsors p
+{
+    text-align: center;  
+}
+/* ----------------------------footer-------------- */
+footer
+{
+    text-align: center;
+    color: #fff;
 }
