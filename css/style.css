@@ -224,12 +224,12 @@ span
     padding-left: 40px;
 }
 /* ------------------------SPONSORS----------------- */
-.sponsors
+#sponsors
 {
     padding-top: 80px;
     padding-bottom: 100px;
 }
-.sponsors p
+#sponsors p
 {
     text-align: center;  
 }
