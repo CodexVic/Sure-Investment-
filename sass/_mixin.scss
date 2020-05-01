@@ -1,0 +1,7 @@
+
+
+@mixin col-style($font,$color:white){
+
+    color: $color;
+    font-size: $font;
+}

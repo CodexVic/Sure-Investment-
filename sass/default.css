@@ -1,0 +1,57 @@
+#header h1 {
+  color: salmon;
+  font-weight: 600;
+  font-size: 90px;
+  padding: 10px;
+}
+
+.col-md-6 p {
+  color: red;
+  font-size: 50x;
+}
+
+.btn, #services {
+  color: #fff;
+  border: solid 1px #FA8072;
+  border-radius: 5px;
+}
+
+/* -----------------Section 2----------------- */
+.page2 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.page2 p {
+  font-size: 20px;
+  text-align: center;
+  border: 3px solid #FA8072;
+}
+
+span {
+  color: #FA8072;
+}
+
+#services {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+#services h1::after {
+  content: '';
+  background: #FA8072;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+#services p:hover {
+  color: green;
+}
+
+#services img {
+  width: 250px;
+  height: auto;
+}
+/*# sourceMappingURL=default.css.map */
